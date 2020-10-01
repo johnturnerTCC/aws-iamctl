@@ -37,7 +37,7 @@ This section describes how to install and run the IAMCTL tool.
 
 1. At the command line, enter the following command:
 
-pip install git+ssh://git@github.com:aws-samples/aws-iamctl.git
+pip install git+https://github.com/aws-samples/aws-iamctl.git
 
 You will see output similar to the following:
 
@@ -333,7 +333,7 @@ the drift because of changes done outside of CloudFormation to those IAM
 resources. For more information about drift detection, see `Detecting
 Unmanaged Configuration Changes to Stacks and
 Resources <https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html>`__.
-we welcome any pull requests for issues and enhancements.
+ We welcome any pull requests for issues and enhancements.
 
 .. |image0| image:: .//media/image1.png
    :width: 6.5in
